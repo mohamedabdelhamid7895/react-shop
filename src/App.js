@@ -103,13 +103,10 @@ function App() {
 
         <Header/>
       <Routes>
-        <Route path="/" element={<ProductManager />} />
+       <Route path="/" element={<Home />} />
         <Route path="home" element={<Home/>} />
         <Route path='contact' element={<Contact />}/>
-        <Route path="products" element={<Search products={products} />
-}>
-          {/* <Route pat></Route>h="id" element={<SelectedProduct />} /> */}
-        </Route>
+        <Route path="products" element={<ProductManager/>} />
         <Route path="/product/:id" element={<ProductDetail/>} />
 
 
