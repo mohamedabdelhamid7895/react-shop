@@ -20,8 +20,7 @@ const Header=()=> {
           <Nav className="me-auto">
                   <NavLink className="nav-link" to="home">Home</NavLink>
                   <NavLink className="nav-link" to="contact">Contact Us</NavLink>
-                  <NavLink className="nav-link" to="/">Products </NavLink>
-                  {/* <NavLink className='nav-link' to="product"> Products</NavLink> */}
+                  <NavLink className="nav-link" to="/products">Products </NavLink>
                   <h1 className='text-light'>{count}</h1>
           </Nav>
         </Container>
